@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+// Post Model
 const PostSchema = new mongoose.Schema(
   {
     userId: {
